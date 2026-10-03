@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Class 12 Chemistry — Formula & Difference Book</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--text:#172033;--primary:#4f46e5;--border:#e4e7ec}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+header{background:linear-gradient(135deg,#312e81,#4f46e5);color:#fff;padding:35px 20px;text-align:center}
+header h1{font-size:32px}.search{max-width:800px;margin:20px auto 0}.search input{width:100%;padding:15px;border:0;border-radius:12px;font-size:16px}
+.container{max-width:1200px;margin:auto;padding:25px 18px}.layout{display:grid;grid-template-columns:250px 1fr;gap:25px}
+.sidebar{position:sticky;top:15px;height:max-content;background:var(--card);padding:20px;border-radius:15px;border:1px solid var(--border)}
+.sidebar a{display:block;text-decoration:none;color:var(--text);padding:10px;border-radius:8px}.sidebar a:hover{background:#eef2ff;color:#4f46e5}
+.chapter{background:var(--card);margin-bottom:30px;border-radius:18px;padding:25px;border:1px solid var(--border)}
+.chapter-title{color:var(--primary);border-bottom:2px solid var(--border);padding-bottom:12px}.topic{margin-top:25px}
+.level{display:inline-block;padding:5px 12px;border-radius:20px;color:#fff;font-size:13px;margin-bottom:10px}.basic{background:#16a34a}.intermediate{background:#d97706}.advanced{background:#dc2626}
+.formula{background:#f8fafc;border-left:5px solid var(--primary);padding:15px;margin:10px 0;border-radius:8px;font-family:"Courier New",monospace;overflow:auto}
+table{width:100%;border-collapse:collapse;margin-top:10px}th,td{border:1px solid var(--border);padding:12px;text-align:left}th{background:#eef2ff}
+.important{background:#fff7ed;border-left:5px solid #f97316;padding:15px;border-radius:8px;margin:15px 0}
+button{background:#4f46e5;color:#fff;border:0;padding:10px 15px;border-radius:8px;cursor:pointer}
+footer{text-align:center;padding:30px;color:#667085}
+.dark{--bg:#101828;--card:#1d2939;--text:#f2f4f7;--border:#344054}.dark .formula{background:#101828}.dark th{background:#26344a}.dark .important{background:#3b2919}
+@media(max-width:800px){.layout{grid-template-columns:1fr}.sidebar{position:static}header h1{font-size:25px}.chapter{padding:18px}}
+@media print{header{background:#fff;color:#000}.sidebar,.search,button{display:none}.layout{display:block}.chapter{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+<h1>📘 Class 12 Chemistry</h1>
+<p>Formula + Important Differences Book</p>
+<div class="search"><input id="search" placeholder="Search formula, chapter, difference..." onkeyup="searchContent()"></div><br>
+<button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</header>
+<div class="container"><div class="layout">
+<aside class="sidebar"><h3>📚 Chapters</h3>
+<a href="#solutions">1. Solutions</a><a href="#electrochemistry">2. Electrochemistry</a><a href="#kinetics">3. Chemical Kinetics</a><a href="#dfblock">4. d & f Block</a><a href="#coordination">5. Coordination Compounds</a>
+<hr style="margin:15px 0"><h3>⚡ Levels</h3><p>🟢 Basic</p><p>🟡 Intermediate</p><p>🔴 Advanced</p></aside>
+<main id="content">
+
+<section class="chapter" id="solutions"><h2 class="chapter-title">1️⃣ Solutions</h2>
+<div class="topic"><span class="level basic">BASIC</span><h3>Concentration Terms</h3>
+<div class="formula"><b>Molarity:</b><br>M = moles of solute / volume of solution (L)</div>
+<div class="formula"><b>Molality:</b><br>m = moles of solute / mass of solvent (kg)</div>
+<div class="formula"><b>Mole Fraction:</b><br>X₁ = n₁ / (n₁ + n₂)</div>
+<div class="formula"><b>Mass %:</b><br>Mass % = (mass of solute / mass of solution) × 100</div></div>
+<div class="topic"><span class="level intermediate">INTERMEDIATE</span><h3>Raoult's Law</h3>
+<div class="formula">p₁ = X₁p₁°</div><div class="formula">P = X₁p₁° + X₂p₂°</div><div class="formula">(p° − p)/p° = X₂</div></div>
+<div class="topic"><span class="level advanced">ADVANCED</span><h3>Colligative Properties</h3>
+<div class="formula">ΔTᵦ = Kᵦm</div><div class="formula">ΔT𝒇 = K𝒇m</div><div class="formula">π = CRT</div><div class="formula">i = observed colligative property / calculated colligative property</div>
+<div class="formula">ΔTᵦ = iKᵦm<br>ΔT𝒇 = iK𝒇m<br>π = iCRT</div></div>
+<div class="topic"><h3>⚖️ Molality vs Molarity</h3><table><tr><th>Molality</th><th>Molarity</th></tr><tr><td>Mass of solvent</td><td>Volume of solution</td></tr><tr><td>Temperature independent</td><td>Temperature dependent</td></tr><tr><td>mol kg⁻¹</td><td>mol L⁻¹</td></tr></table></div>
+</section>
+
+<section class="chapter" id="electrochemistry"><h2 class="chapter-title">2️⃣ Electrochemistry</h2>
+<div class="topic"><span class="level basic">BASIC</span><h3>Basic Formulae</h3>
+<div class="formula">V = IR</div><div class="formula">R = ρl/A</div><div class="formula">G = 1/R</div><div class="formula">κ = G × l/A</div></div>
+<div class="topic"><span class="level intermediate">INTERMEDIATE</span><h3>Conductivity</h3><div class="formula">Λₘ = κ × 1000 / C</div><div class="formula">Cell constant = l/A</div></div>
+<div class="topic"><span class="level advanced">ADVANCED</span><h3>Nernst & Thermodynamics</h3>
+<div class="formula">Ecell = E°cell − (0.0591/n) log Q</div><div class="formula">ΔG = −nFE</div><div class="formula">ΔG° = −RT ln K</div><div class="formula">E°cell = (0.0591/n) log K</div></div>
+<div class="topic"><h3>⚖️ Galvanic vs Electrolytic Cell</h3><table><tr><th>Galvanic</th><th>Electrolytic</th></tr><tr><td>Produces electrical energy</td><td>Consumes electrical energy</td></tr><tr><td>Spontaneous reaction</td><td>Non-spontaneous reaction</td></tr><tr><td>Anode negative</td><td>Anode positive</td></tr><tr><td>Cathode positive</td><td>Cathode negative</td></tr></table></div>
+</section>
+
+<section class="chapter" id="kinetics"><h2 class="chapter-title">3️⃣ Chemical Kinetics</h2>
+<div class="topic"><span class="level basic">BASIC</span><h3>Rate of Reaction</h3><div class="formula">Rate = −Δ[R]/Δt</div><div class="formula">For aA → bB: Rate = −(1/a)Δ[A]/Δt = (1/b)Δ[B]/Δt</div></div>
+<div class="topic"><span class="level intermediate">INTERMEDIATE</span><h3>Rate Law</h3><div class="formula">Rate = k[A]ᵐ[B]ⁿ</div><div class="formula">Overall order = m + n</div></div>
+<div class="topic"><span class="level advanced">ADVANCED</span><h3>Integrated Rate Equations</h3><div class="formula">Zero order: [R] = [R]₀ − kt</div><div class="formula">Zero order: t₁/₂ = [R]₀/2k</div><div class="formula">First order: k = (2.303/t) log([R]₀/[R])</div><div class="formula">First order: t₁/₂ = 0.693/k</div><div class="formula">Arrhenius: k = Ae^(−Ea/RT)</div><div class="formula">log(k₂/k₁) = Ea/(2.303R) × (T₂−T₁)/(T₁T₂)</div></div>
+<div class="topic"><h3>⚖️ Zero Order vs First Order</h3><table><tr><th>Zero Order</th><th>First Order</th></tr><tr><td>Rate = k</td><td>Rate = k[A]</td></tr><tr><td>t₁/₂ = [A]₀/2k</td><td>t₁/₂ = 0.693/k</td></tr><tr><td>Half-life depends on initial concentration</td><td>Half-life independent of initial concentration</td></tr></table></div>
+</section>
+
+<section class="chapter" id="dfblock"><h2 class="chapter-title">4️⃣ d & f Block Elements</h2>
+<div class="topic"><span class="level basic">BASIC</span><h3>Electronic Configuration</h3><div class="formula">d-block: (n−1)d¹⁻¹⁰ ns⁰⁻²</div><div class="formula">Lanthanides: [Xe] 4f¹⁻¹⁴ 5d⁰⁻¹ 6s²</div><div class="formula">Actinides: [Rn] 5f¹⁻¹⁴ 6d⁰⁻¹ 7s²</div></div>
+<div class="topic"><span class="level intermediate">INTERMEDIATE</span><h3>Important Concepts</h3><div class="important"><b>Colour:</b> Transition-metal compounds can be coloured because of electronic transitions involving d-orbitals.</div><div class="important"><b>Variable oxidation states:</b> ns and (n−1)d orbital energies are relatively close.</div></div>
+<div class="topic"><span class="level advanced">ADVANCED</span><h3>Lanthanides vs Actinides</h3><table><tr><th>Lanthanides</th><th>Actinides</th></tr><tr><td>4f orbitals filled</td><td>5f orbitals filled</td></tr><tr><td>Mostly +3</td><td>Wider range of oxidation states</td></tr><tr><td>Generally less radioactive</td><td>All are radioactive</td></tr></table></div>
+</section>
+
+<section class="chapter" id="coordination"><h2 class="chapter-title">5️⃣ Coordination Compounds</h2>
+<div class="topic"><span class="level basic">BASIC</span><h3>Basic Terms</h3><div class="important"><b>Coordination number:</b> Number of donor atoms directly attached to the central metal ion.</div><div class="important"><b>Ligand:</b> Ion or molecule capable of donating an electron pair to a central metal atom/ion.</div></div>
+<div class="topic"><span class="level intermediate">INTERMEDIATE</span><h3>Types of Ligands</h3><table><tr><th>Type</th><th>Example</th></tr><tr><td>Monodentate</td><td>NH₃, H₂O, Cl⁻</td></tr><tr><td>Bidentate</td><td>en, C₂O₄²⁻</td></tr><tr><td>Polydentate</td><td>EDTA⁴⁻</td></tr><tr><td>Ambidentate</td><td>NO₂⁻, SCN⁻</td></tr></table></div>
+<div class="topic"><span class="level advanced">ADVANCED</span><h3>Important Concepts</h3><div class="formula">EAN = Atomic number − Oxidation state + electrons donated by ligands</div><div class="important"><b>Octahedral:</b> d-orbitals split into t₂g and eg sets.</div><div class="important"><b>Tetrahedral:</b> d-orbitals split into e and t₂ sets.</div></div>
+<div class="topic"><h3>⚖️ Double Salt vs Coordination Compound</h3><table><tr><th>Double Salt</th><th>Coordination Compound</th></tr><tr><td>Completely dissociates into simple ions in solution</td><td>Complex ion retains its identity in solution</td></tr><tr><td>Example: Mohr's salt</td><td>Example: [Cu(NH₃)₄]²⁺</td></tr></table></div>
+</section>
+
+</main></div></div>
+<footer>📘 Class 12 Chemistry Revision Book — Formula + Differences | Basic → Advanced</footer>
+<script>
+function toggleDarkMode(){document.body.classList.toggle("dark");localStorage.setItem("darkMode",document.body.classList.contains("dark")?"enabled":"disabled")}
+if(localStorage.getItem("darkMode")==="enabled")document.body.classList.add("dark");
+function searchContent(){const q=document.getElementById("search").value.toLowerCase();document.querySelectorAll(".chapter").forEach(c=>c.style.display=c.innerText.toLowerCase().includes(q)?"":"none")}
+</script>
+</body>
+</html>
